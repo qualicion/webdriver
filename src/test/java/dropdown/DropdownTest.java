@@ -9,9 +9,6 @@ public class DropdownTest extends BaseTests {
     public void testSelectOption(){
         var dropDownPage = homePage.clickDropDown();
 
-
-
-
     }
 
 }
