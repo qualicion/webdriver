@@ -7,24 +7,26 @@ public class HomePage {
 
     private WebDriver driver;
 
-
-    public HomePage(WebDriver driver){
+    public HomePage(WebDriver driver) {
         this.driver = driver;
     }
 
-
-    public LoginPage clickFormAuthentication(){
+    public LoginPage clickFormAuthentication() {
         clickLink("Form Authentication");
         return new LoginPage(driver);
     }
 
-    public DropdownPage clickDropDown(){
+    public DropdownPage clickDropDown() {
         clickLink("Dropdown");
         return new DropdownPage(driver);
     }
 
+    public ForgotPasswordPage clickForgotPasswordLink() {
+        clickLink("Forgot Password");
+        return new ForgotPasswordPage(driver);
+    }
 
-    private void clickLink(String linkText){
+    private void clickLink(String linkText) {
         driver.findElement(By.linkText(linkText)).click();
     }
 }

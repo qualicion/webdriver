@@ -2,16 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a07c5660-6462-44f9-a01a-e7132583d4ef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dropdown/DropdownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dropdown/DropdownTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/login/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/login/LoginTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/EmailSentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ForgotPasswordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/login/ForgotPasswordTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,11 +36,17 @@
   <component name="ProjectId" id="1SIXoDAFTjYr5mcFMem91yp1dxY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35287356" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pages" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,9 +60,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DropdownTest">
+  <component name="RunManager" selected="TestNG.ForgotPasswordTests.testPasswordReset">
     <configuration default="true" type="Applet">
+      <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -59,6 +77,7 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,31 +121,6 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="webdriver_java [deploy]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="deploy" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
     <configuration name="DropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver" />
       <extension name="coverage">
@@ -138,6 +132,7 @@
       <option name="PACKAGE_NAME" value="dropdown" />
       <option name="MAIN_CLASS_NAME" value="dropdown.DropdownTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -157,6 +152,7 @@
       <option name="MAIN_CLASS_NAME" value="dropdown.DropdownTest" />
       <option name="METHOD_NAME" value="testSelectOption" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -164,7 +160,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ForgotPasswordTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver" />
       <extension name="coverage">
         <pattern>
@@ -173,9 +169,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="login" />
-      <option name="MAIN_CLASS_NAME" value="login.LoginTests" />
-      <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="MAIN_CLASS_NAME" value="login.ForgotPasswordTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForgotPasswordTests.testPasswordReset" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="login.ForgotPasswordTests" />
+      <option name="METHOD_NAME" value="testPasswordReset" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -187,6 +203,7 @@
       <module name="webdriver" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -196,6 +213,7 @@
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -213,20 +231,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Maven.webdriver_java [deploy]" />
       <item itemvalue="Maven.webdriver_java [clean]" />
       <item itemvalue="TestNG.&lt;default&gt;" />
       <item itemvalue="TestNG.DropdownTest" />
-      <item itemvalue="TestNG.LoginTests.testSuccessfulLogin" />
       <item itemvalue="TestNG.DropdownTest.testSelectOption" />
+      <item itemvalue="TestNG.ForgotPasswordTests" />
+      <item itemvalue="TestNG.ForgotPasswordTests.testPasswordReset" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ForgotPasswordTests.testPasswordReset" />
+        <item itemvalue="TestNG.ForgotPasswordTests" />
         <item itemvalue="TestNG.DropdownTest" />
         <item itemvalue="TestNG.DropdownTest.testSelectOption" />
         <item itemvalue="Maven.webdriver_java [clean]" />
-        <item itemvalue="TestNG.LoginTests.testSuccessfulLogin" />
-        <item itemvalue="Maven.webdriver_java [deploy]" />
       </list>
     </recent_temporary>
   </component>

@@ -1,4 +1,6 @@
-i*.idea/*
+*.idea/*
 *resources/*
 *webdriver.iml*
+*.idea/workspace.xml*
+
 
