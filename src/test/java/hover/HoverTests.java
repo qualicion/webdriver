@@ -3,8 +3,8 @@ package hover;
 import base.BaseTests;
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
+import static org.testng.Assert.*;
+
 
 public class HoverTests extends BaseTests {
     @Test
@@ -15,6 +15,5 @@ public class HoverTests extends BaseTests {
         assertEquals(caption.getTitle(), "name: user1", "Caption is incorrect");
         assertEquals(caption.getLinkText(),"View profile", "Caption link text incorrect");
         assertTrue(caption.getLink().endsWith("/users/1"), "Link incorrect");
-
     }
 }

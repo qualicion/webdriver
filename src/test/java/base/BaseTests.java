@@ -19,7 +19,7 @@ public class BaseTests {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
 
         driver = new ChromeDriver();
-        driver.manage().window().maximize();
+        driver.manage().window();
         driver.get("https://the-internet.herokuapp.com/");
 
         homePage = new HomePage(driver);
