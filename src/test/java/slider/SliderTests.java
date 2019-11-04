@@ -10,7 +10,7 @@ public class SliderTests extends BaseTests {
     @Test
     public void testSlider(){
         String value = "3";
-        HorizontalSliderPage sliderPage = homePage.clickSlider();
+        var sliderPage = homePage.clickSlider();
         sliderPage.setSliderValue(value);
         assertEquals(sliderPage.getSliderValue(), value, "Slider value is incorrect");
 

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a07c5660-6462-44f9-a01a-e7132583d4ef" name="Default" comment="changes to workspace">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HorizontalSliderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/slider/SliderTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/slider/SliderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/slider/SliderTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SliderTests">
+  <component name="RunManager" selected="TestNG.ForgotPasswordTests">
     <configuration default="true" type="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -95,16 +93,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoverTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ForgotPasswordTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hover.*" />
+          <option name="PATTERN" value="login.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hover" />
-      <option name="MAIN_CLASS_NAME" value="hover.HoverTests" />
+      <option name="PACKAGE_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="login.ForgotPasswordTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -225,19 +223,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.&lt;default&gt;" />
-      <item itemvalue="TestNG.HoverTests" />
       <item itemvalue="TestNG.KeysTests" />
       <item itemvalue="TestNG.KeysTests.testBackSpace" />
       <item itemvalue="TestNG.SliderTests.testSlider" />
       <item itemvalue="TestNG.SliderTests" />
+      <item itemvalue="TestNG.ForgotPasswordTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ForgotPasswordTests" />
         <item itemvalue="TestNG.SliderTests" />
         <item itemvalue="TestNG.SliderTests.testSlider" />
         <item itemvalue="TestNG.KeysTests.testBackSpace" />
         <item itemvalue="TestNG.KeysTests" />
-        <item itemvalue="TestNG.HoverTests" />
       </list>
     </recent_temporary>
   </component>
