@@ -25,7 +25,7 @@ public class AlertsPage {
     }
 
     public void triggerPrompt() {
-        driver.findElement(triggerJSPrompt);
+        driver.findElement(triggerJSPrompt).click();
     }
 
     public void acceptAlert() {
