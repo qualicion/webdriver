@@ -1,7 +1,6 @@
 package alerts;
 
 import base.BaseTests;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
@@ -27,7 +26,7 @@ public class AlertTests extends BaseTests {
     }
 
     @Test
-    public void testEnterTextAndAccept() throws InterruptedException {
+    public void testEnterTextAndAccept() {
         var alertsPage = homePage.clickJavaScriptAlerts();
         alertsPage.triggerPrompt();
         String text = "Tunde is an excellent programmer";
