@@ -13,4 +13,3 @@ public class FileUploadTests extends BaseTests {
         assertEquals(uploadPage.getUploadedFiles(), "Hello.txt", "Uploaded ");
     }
 }
-
