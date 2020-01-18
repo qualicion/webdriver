@@ -10,6 +10,11 @@ public class HomePage {
         this.driver = driver;
     }
 
+    public ModalPage clickEntryAdLink(){
+        clickLink("Entry Ad");
+        return new ModalPage(driver);
+    }
+
     public LoginPage clickFormAuthentication() {
         clickLink("Form Authentication");
         return new LoginPage(driver);

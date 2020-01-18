@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a07c5660-6462-44f9-a01a-e7132583d4ef" name="Default" comment="changes to workspace">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ModalPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/modal/ModalTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/alerts/FileUploadTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alerts/FileUploadTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/KeyPressesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/KeyPressesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/alerts/FileUploadTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/alerts/FileUploadTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+  <component name="RunManager" selected="TestNG.ModalTests.modalTest">
     <configuration default="true" type="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -99,84 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlertTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertTests.testEnterTextAndAccept" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
-      <option name="METHOD_NAME" value="testEnterTextAndAccept" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertTests.testGetAndCancelAlert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
-      <option name="METHOD_NAME" value="testGetAndCancelAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileUploadTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.FileUploadTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FileUploadTests.testFileUpload" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver" />
       <extension name="coverage">
@@ -188,6 +121,84 @@
       <option name="PACKAGE_NAME" value="alerts" />
       <option name="MAIN_CLASS_NAME" value="alerts.FileUploadTests" />
       <option name="METHOD_NAME" value="testFileUpload" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModalTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modal" />
+      <option name="MAIN_CLASS_NAME" value="modal.ModalTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModalTests.modalTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modal" />
+      <option name="MAIN_CLASS_NAME" value="modal.ModalTests" />
+      <option name="METHOD_NAME" value="modalTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SliderTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="slider" />
+      <option name="MAIN_CLASS_NAME" value="slider.SliderTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SliderTests.testSlider" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="slider" />
+      <option name="MAIN_CLASS_NAME" value="slider.SliderTests" />
+      <option name="METHOD_NAME" value="testSlider" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -230,19 +241,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.&lt;default&gt;" />
-      <item itemvalue="TestNG.AlertTests.testGetAndCancelAlert" />
-      <item itemvalue="TestNG.AlertTests.testEnterTextAndAccept" />
-      <item itemvalue="TestNG.AlertTests" />
-      <item itemvalue="TestNG.FileUploadTests" />
       <item itemvalue="TestNG.FileUploadTests.testFileUpload" />
+      <item itemvalue="TestNG.ModalTests" />
+      <item itemvalue="TestNG.SliderTests.testSlider" />
+      <item itemvalue="TestNG.ModalTests.modalTest" />
+      <item itemvalue="TestNG.SliderTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ModalTests.modalTest" />
+        <item itemvalue="TestNG.ModalTests" />
+        <item itemvalue="TestNG.SliderTests" />
+        <item itemvalue="TestNG.SliderTests.testSlider" />
         <item itemvalue="TestNG.FileUploadTests.testFileUpload" />
-        <item itemvalue="TestNG.FileUploadTests" />
-        <item itemvalue="TestNG.AlertTests" />
-        <item itemvalue="TestNG.AlertTests.testEnterTextAndAccept" />
-        <item itemvalue="TestNG.AlertTests.testGetAndCancelAlert" />
       </list>
     </recent_temporary>
   </component>
@@ -297,6 +308,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/alerts/FileUploadTests.java</url>
           <line>12</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/modal/ModalTests.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
