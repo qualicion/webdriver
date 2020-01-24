@@ -11,7 +11,7 @@ public class SliderTests extends BaseTests {
         String value = "3";
         var sliderPage = homePage.clickSlider();
         sliderPage.setSliderValue(value);
-        assertEquals(sliderPage.getSliderValue(), value, "Slider value is incorrect!");
+        assertEquals(sliderPage.getSliderValue(), value, "Slider value is incorrect!!");
 
     }
 }
