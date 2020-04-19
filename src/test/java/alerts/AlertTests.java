@@ -29,7 +29,7 @@ public class AlertTests extends BaseTests {
     public void testEnterTextAndAccept() {
         var alertsPage = homePage.clickJavaScriptAlerts();
         alertsPage.triggerPrompt();
-        String text = "Tunde is an excellent programmer";
+        String text = "Tunde is an excellent programmer!";
         alertsPage.enterPromptInput(text);
         alertsPage.acceptAlert();
         assertEquals(alertsPage.getResult(), ("You entered: " + text),
